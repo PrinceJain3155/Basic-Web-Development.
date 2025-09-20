@@ -1,0 +1,36 @@
+body {
+    background: white;       /* Page background color */
+    color: black;            /* Text color */
+    text-align: center;      /* Center all text/elements */
+    font-size: 20px;         /* Default font size */
+    font-weight: bolder;     /* Bold text */
+    margin-top: 20px;        /* Space from the top */
+}
+
+.searchbar {
+    width: 450px;
+    height: 40px;
+    padding: 5px 10px;       /* Fixed padding (no commas) */
+    border-radius: 20px;     /* Rounded edges */
+    border: 1px solid gray;  /* Light border */
+}
+
+.search {
+    width: auto;
+    height: auto;
+    border: 2px solid blue;
+    border-radius: 5px;
+    cursor: pointer;         /* Hand cursor on hover */
+    background: white;
+    font-weight: bold;
+}
+
+.dumb {
+    width: auto;
+    height: auto;
+    border: 2px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+    background: white;
+    font-weight: bold;
+}
